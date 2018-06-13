@@ -1,5 +1,5 @@
 FROM java:8
-COPY JavaAutoBuild.java .
-RUN javac JavaAutoBuild.java
+COPY JavaDocker.java .
+RUN javac JavaDocker.java
 
-CMD ["java", "JavaAutoBuild"]
+CMD ["java", "JavaDocker"]
